@@ -4,3 +4,6 @@
 .layout {
   padding: 0 80px;
 }
+a {
+  text-decoration: none;
+}

@@ -12,14 +12,17 @@ const locations = [
   { id: 6, title: "Titre de la location" },
 ];
 
-function home() {
+function Home() {
   return (
-      <><Banner /><div className="home">
-      {locations.map((loc) => (
-        <CardLocation key={loc.id} title={loc.title} />
-      ))}
-    </div></>
+    <>
+      <Banner />
+      <div className="home">
+        {locations.map((loc) => (
+          <CardLocation key={loc.id} id={loc.id} title={loc.title} />
+        ))}
+      </div>
+    </>
   );
 }
 
-export default home;
+export default Home;

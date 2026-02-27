@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CardLocation.css";
 
-function CardLocation({ title }) {
+function CardLocation({ id, title }) {
   return (
-    <div className="card">
-      <p className="card-title">{title}</p>
-    </div>
+    <Link to={`/location/${id}`}>
+      <div className="card">
+        <p className="card-title">{title}</p>
+      </div>
+    </Link>
   );
 }
 
