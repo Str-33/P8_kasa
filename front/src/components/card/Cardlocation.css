@@ -1,15 +1,18 @@
 .card {
-  background-color: #FF6060;
+  background:linear-gradient(to bottom, #FF6060, #cb5c5c);
   border-radius: 15px;
-  height: 250px;
+  aspect-ratio: 1 / 1;
   display: flex;
   align-items: flex-end;
   padding: 15px;
+  cursor: pointer;
 }
 
 .card-title {
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+  max-width: 60%;
+  line-height: 1.3;
 }
