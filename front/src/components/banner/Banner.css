@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  height: 220px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--banner-img);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.banner-text {
+  position: relative;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+}

@@ -1,0 +1,15 @@
+.card {
+  background-color: #FF6060;
+  border-radius: 15px;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+
+.card-title {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
