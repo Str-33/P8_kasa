@@ -1,7 +1,8 @@
 import React from "react";
 import CardLocation from "../../components/card/Cardlocation.jsx";
-import "./home.css";
 import Banner from "../../components/banner/Banner.jsx";
+import bannerImg from "../../assets/banner.png";
+import "./home.css";
 
 const locations = [
   { id: 1, title: "Titre de la location" },
@@ -15,7 +16,7 @@ const locations = [
 function Home() {
   return (
     <>
-      <Banner />
+      <Banner imageSrc={bannerImg} text="Chez nous, partout et ailleurs" />
       <div className="home">
         {locations.map((loc) => (
           <CardLocation key={loc.id} id={loc.id} title={loc.title} />
