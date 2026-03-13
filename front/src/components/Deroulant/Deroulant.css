@@ -1,0 +1,57 @@
+.deroulant {
+  background-color: #ff6060;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+
+.deroulant__entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+.deroulant__titre {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Chevron */
+
+.deroulant__chevron {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease;
+}
+
+.deroulant__chevron--ouvert {
+  transform: rotate(180deg);
+}
+
+/* Contenu */
+
+.deroulant__contenu {
+  overflow: hidden;
+  background-color: #f6f6f6;
+  transition: all 0.15s ease;
+}
+
+.deroulant__contenu p,
+.deroulant__liste {
+  padding: 20px;
+  font-size: 14px;
+  color: #444444;
+  line-height: 1.7;
+}
+
+.deroulant__liste {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

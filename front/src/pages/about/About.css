@@ -1,0 +1,12 @@
+.about__deroulants {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px;
+}
+.about__deroulants {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+}
