@@ -1,0 +1,49 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 415px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.carousel__btn--gauche { left: 20px; }
+.carousel__btn--droite { right: 20px; }
+
+.carousel__compteur {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1rem;
+}
+.carousel__chevron {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.carousel__chevron--gauche {
+  transform: rotate(-90deg);
+}
+
+.carousel__chevron--droite {
+  transform: rotate(90deg);
+}
