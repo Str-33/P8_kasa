@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <>
-      <Banner imageSrc={bannerImg} text="Chez nous, partout et ailleurs" />
+      <Banner imageSrc={bannerImg} text="Chez vous, partout et ailleurs" />
       <div className="home">
         {logements.map((logement) => (
           <CardLocation

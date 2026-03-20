@@ -28,3 +28,20 @@
   font-size: 1rem;
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .erreur__titre {
+    font-size: 6rem;
+  }
+
+  .erreur__message {
+    font-size: 0.875rem;
+    margin: 24px 0 40px 0;
+  }
+
+  .erreur__lien {
+    font-size: 0.875rem;
+  }
+  .erreur {
+  flex: 1;
+}
+}

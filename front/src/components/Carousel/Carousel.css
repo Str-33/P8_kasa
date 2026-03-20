@@ -50,3 +50,22 @@
 .carousel__chevron--droite {
   transform: rotate(-45deg);   /* pointe à droite */
 }
+@media (max-width: 768px) {
+  .carousel {
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .carousel__btn {
+    font-size: 2rem;
+  }
+
+  .carousel__chevron {
+    width: 16px;
+    height: 16px;
+  }
+
+  .carousel__compteur {
+    font-size: 0.75rem;
+  }
+}

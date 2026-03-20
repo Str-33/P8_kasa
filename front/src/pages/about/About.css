@@ -1,12 +1,14 @@
 .about__deroulants {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin: 40px;
-}
-.about__deroulants {
-  display: flex;
-  flex-direction: column;
   gap: 30px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 100px;
+}
+@media (max-width: 768px) {
+  .about__deroulants {
+    padding: 0;
+    margin: 20px 0;
+  }
 }

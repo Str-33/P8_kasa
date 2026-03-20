@@ -24,3 +24,17 @@
 .navbar-links a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 50px;
+  }
+
+  .navbar-links {
+    gap: 15px;
+  }
+
+  .navbar-links a {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+}
