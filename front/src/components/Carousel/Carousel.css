@@ -35,15 +35,18 @@
   font-size: 1rem;
 }
 .carousel__chevron {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) invert(1);
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  flex-shrink: 0;
 }
 
 .carousel__chevron--gauche {
-  transform: rotate(-90deg);
+  transform: rotate(135deg);   /* pointe à gauche */
 }
 
 .carousel__chevron--droite {
-  transform: rotate(90deg);
+  transform: rotate(-45deg);   /* pointe à droite */
 }

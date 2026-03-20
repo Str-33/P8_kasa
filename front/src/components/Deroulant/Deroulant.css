@@ -23,14 +23,17 @@
 /* Chevron */
 
 .deroulant__chevron {
-  width: 20px;
-  height: 20px;
-  filter: brightness(0) invert(1);
+  width: 14px;
+  height: 14px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotate(45deg);
   transition: transform 0.2s ease;
+  flex-shrink: 0;
 }
 
 .deroulant__chevron--ouvert {
-  transform: rotate(180deg);
+  transform: rotate(-135deg);
 }
 
 /* Contenu */

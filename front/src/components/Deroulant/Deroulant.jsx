@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Deroulant.css";
-import chevronTop from "../../assets/chevron-top.svg";
 
 function Deroulant({ titre, contenu }) {
     const [estOuvert, setEstOuvert] = useState(false);
@@ -14,11 +13,7 @@ function Deroulant({ titre, contenu }) {
             >
                 <span className="deroulant__titre">{titre}</span>
 
-                <img
-                    className={`deroulant__chevron ${estOuvert ? "deroulant__chevron--ouvert" : ""}`}
-                    src={chevronTop}
-                    alt="Ouvrir ou fermer"
-                />
+                <span className={`deroulant__chevron ${estOuvert ? "deroulant__chevron--ouvert" : ""}`} />
             </div>
 
             <AnimatePresence>

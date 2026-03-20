@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import chevronTop from "../../assets/chevron-top.svg";
 import "./Carousel.css";
 
 function Carousel({ pictures }) {
@@ -21,10 +20,10 @@ function Carousel({ pictures }) {
       {pictures.length > 1 && (
         <React.Fragment>
           <button className="carousel__btn carousel__btn--gauche" onClick={precedent}>
-            <img src={chevronTop} alt="Précédent" className="carousel__chevron carousel__chevron--gauche" />
+            <span className="carousel__chevron carousel__chevron--gauche" />
           </button>
           <button className="carousel__btn carousel__btn--droite" onClick={suivant}>
-            <img src={chevronTop} alt="Suivant" className="carousel__chevron carousel__chevron--droite" />
+            <span className="carousel__chevron carousel__chevron--droite" />
           </button>
           <span className="carousel__compteur">
             {index + 1}/{pictures.length}
