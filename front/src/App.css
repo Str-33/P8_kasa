@@ -13,6 +13,15 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  padding: 0 80px; /* ← manquait */
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {

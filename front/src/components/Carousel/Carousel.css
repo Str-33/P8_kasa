@@ -1,6 +1,6 @@
 .carousel {
   position: relative;
-  width: 100%;
+  width: inherit;
   height: 415px;
   border-radius: 25px;
   overflow: hidden;

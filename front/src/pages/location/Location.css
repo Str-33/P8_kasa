@@ -6,7 +6,16 @@
 .location {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 100px 60px;
+  padding: 0 0 60px;
+}
+
+/* ── Carousel pleine largeur ──────────────── */
+.location .carousel {
+  width: calc(100vw - 160px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 25px;
 }
 
 /* ── Bloc info (titre + hôte) ─────────────── */
@@ -183,10 +192,20 @@
   color: #000;
 }
 
-/* ── Responsive ───────────────────────────── */
+/* ══════════════════════════════════════════
+   RESPONSIVE
+   ══════════════════════════════════════════ */
 @media (max-width: 768px) {
   .location {
     padding: 0 0 40px;
+  }
+
+  .location .carousel {
+    width: calc(100vw - 40px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
   }
 
   .location__info {
