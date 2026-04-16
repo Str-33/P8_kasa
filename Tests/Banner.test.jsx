@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import Banner from "./Banner";
+// Banner.test.jsx
+import Banner from "../front/src/components/banner/Banner";
 
 // describe() regroupe tous les tests liés au composant Banner
 describe("Le composant Banner", () => {

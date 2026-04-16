@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Carousel from "./Carousel";
+// Carousel.test.jsx
+import Carousel from "../front/src/components/Carousel/Carousel";
 
 // données mockées pour simuler les images passées en props
 const picturesMock = ["photo1.jpg", "photo2.jpg", "photo3.jpg"];

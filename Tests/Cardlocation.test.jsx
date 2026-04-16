@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import CardLocation from "./Cardlocation";
+// Cardlocation.test.jsx
+import CardLocation from "../front/src/components/card/Cardlocation";
 
 // Wrapper avec le provider nécessaire
 // Ici c'est MemoryRouter car CardLocation utilise <Link>

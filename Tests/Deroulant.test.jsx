@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Deroulant from "./Deroulant";
+// Deroulant.test.jsx
+import Deroulant from "../front/src/components/Deroulant/Deroulant";
 
 describe("Le composant Deroulant", () => {
 
