@@ -1,0 +1,1 @@
+module.exports = {}; // retourne un objet vide à la place du CSS
