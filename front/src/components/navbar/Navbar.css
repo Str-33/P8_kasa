@@ -22,6 +22,10 @@
 }
 
 .navbar-links a:hover {
+  text-decoration: none;
+}
+
+.navbar-links a.active {
   text-decoration: underline;
 }
 @media (max-width: 768px) {

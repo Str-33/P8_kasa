@@ -32,11 +32,29 @@
   z-index: 1;
 }
 
+/* Cache le saut de ligne sur desktop */
+.banner-br {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .banner {
-    width: 100%;
+    width: calc(100% + 40px);
     height: 150px;
-    border-radius: 25px;
-    margin: 0 0 30px 0;
+    border-radius: 10px;
+    margin: 0 -20px 30px -20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .banner-text {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  /* Affiche le saut de ligne uniquement en mobile */
+  .banner-br {
+    display: inline;
   }
 }
